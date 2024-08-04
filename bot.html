@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Our Game</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<script>
+  window.onscroll = function () {myFunction()};
+
+  var navbar = document.getElementById("navbar");
+  var sticky = navbar.offsetTop;
+
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+</script>
+
+<body>
+
+  <div id="navbar">
+    <a class="active" href="index.html">Home</a>
+    <a href="bot.html">AI Chatbot</a>
+    <a href="library.html">Library</a>
+
+  </div>
+  <header>
+    <img src="bg.png"
+      alt="Header Image" width="50%">
+    <div class="header-text">
+      <h1>JobBridge</h1>
+      <p>Connecting Talents, Embracing Diversity</p>
+    </div>
+  </header>
+
+
+  <section id="home">
+    <div class="text-container">
+      <h2>AI Chatbot</h2>
+      <p> Welcome to our <b>AI</b> Assistant that offers personalized advice and support. It also provides guidance for
+        finding job opportunities and navigating the job market. Feel free to ask any questions, clear doubts, or even
+        just chat!
+        Additionally, our chatbot is <b>multilingual</b>, making JobBridge more <b>accessible</b> to all. If you want to
+        communicate with the chatbot in a different language, simply command it to do so. </p>
+    </div>
+    <img class="image" alt="PageDart.com" src="https://blog.happyfox.com/wp-content/uploads/2020/10/How-AI-Chatbots-are-Transforming-Customer-Service.png" height: 250px>
+  </section>
+  <section id="bot">
+    <br></br>
+    <div class="chat-container">
+      <ul id="conversation">
+        <li class="user-message">hi</li>
+        <li class="bot-message">
+          <span class="bot-avatar"></span>
+          <div class="bot-bubble">
+            Hello! How can I assist you today with the job navigation process?
+          </div>
+        </li>
+      </ul>
+    </div> <br></br>
+    <input size="132" type="text" id="user-input" placeholder="Type something ... "><br></br>
+    <button id="submit-button">Send</button>
+    <div id="conversation">
+  </section>
+  <br></br>
+
+  <script src="https://wizard-orpheus.hackclub.dev/wizard_orpheus.js"></script>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
