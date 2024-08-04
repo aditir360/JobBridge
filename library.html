@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Our Game</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<script>
+  window.onscroll = function () {myFunction()};
+
+  var navbar = document.getElementById("navbar");
+  var sticky = navbar.offsetTop;
+
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+</script>
+
+<body>
+
+  <div id="navbar">
+    <a class="active" href="index.html">Home</a>
+    <a href="bot.html">AI Chatbot</a>
+    <a href="library.html">Library</a>
+
+  </div>
+  <header>
+    <img src="bg.png"
+      alt="Header Image" width="50%">
+    <div class="header-text">
+      <h1>JobBridge</h1>
+      <p>Connecting Talents, Embracing Diversity</p>
+    </div>
+  </header>
+
+
+  <section id="home">
+    <div class="text-container">
+      <h2>Library</h2>
+      <p>JobBirdge's library is a comprehensive resource hub offering a curated collection of websites, tutorials, and
+        development tools needed for obtaining the skills needed for your dream job. </p>
+    </div>
+    <img class="image" alt="PageDart.com"
+      src="https://www.liveabout.com/thmb/zblmvTx49wgte6vNZ4bb-SzVrW4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/marketing-skills-list-2062431-final-5b74a69646e0fb00504dc09a.png"
+      height: 100px width: 300px>
+  </section>
+  <div class="container">
+
+    <section id="home">
+      <div class="text-container">
+        <h2>Soft Skills</h2>
+        <p>Soft skills have become essential in the job industry, complementing technical expertise and enhancing
+          workplace effectiveness. Attributes such as communication, teamwork, problem-solving, and emotional
+          intelligence enable employees to navigate social environments and collaborate effectively. As organizations
+          prioritize positive workplace culture and customer satisfaction, the demand for individuals with strong soft
+          skills has surged. Employers recognize that while technical skills can be taught, soft skills are often innate
+          and significantly influence team dynamics and productivity.</p>
+        <a href="https://www.dol.gov/agencies/odep/publications/fact-sheets/soft-skills-the-competitive-edge">
+          <button id="learn-more-button">Learn More</button>
+        </a>
+      </div>
+    </section>
+
+    <section id="home">
+      <div class="text-container">
+        <h2>Networking</h2>
+        <p> Networking is a vital aspect of career development, involving the building of professional relationships
+          that can lead to new opportunities. By connecting with industry peers, mentors, and potential employers,
+          individuals can gain insights, share knowledge, and access job openings not publicly advertised. Effective
+          networking requires genuine engagement and a willingness to support others. Utilizing social media platforms
+          like LinkedIn, attending industry events, and participating in professional organizations can significantly
+          enhance one’s network, ultimately contributing to career advancement and success. </p>
+        <a href="https://www.betterup.com/blog/networking">
+          <button id="learn-more-button">Learn More</button>
+        </a>
+      </div>
+    </section>
+
+  </div>
+  <br></br>
+
+  </section>
+  <div class="container">
+
+    <section id="home">
+      <div class="text-container">
+        <h2>Digital Literacy</h2>
+        <p> Digital literacy is essential in today’s job market, encompassing the ability to effectively use technology
+          and digital tools for communication, collaboration, and problem-solving. Proficiency in software applications,
+          data analysis, and online platforms enhances employability and productivity. As workplaces increasingly rely
+          on technology, being digitally literate allows individuals to adapt to new tools and workflows, making them
+          more valuable to employers. Strong digital literacy fosters innovation, enabling individuals to leverage
+          technology to improve processes. In a world where digital transformation is constant, those who possess these
+          skills are better equipped to navigate challenges and seize opportunities. </p>
+        <a href="https://www.workvivo.com/blog/digital-transformation-tools/">
+          <button id="learn-more-button">Learn More</button>
+        </a>
+      </div>
+    </section>
+
+    <section id="home">
+      <div class="text-container">
+        <h2>Adaptibility</h2>
+        <p>Adaptability is a crucial skill in today’s fast-paced job market, reflecting an individual’s ability to
+          adjust to new challenges, changes, and environments. Employers value adaptable employees who can thrive in
+          dynamic settings, embrace new technologies, and pivot strategies when necessary. This flexibility enhances
+          problem-solving capabilities and fosters resilience in the face of setbacks. By demonstrating a willingness to
+          learn and grow, adaptable individuals can navigate uncertainties and contribute positively to their teams.
+          Ultimately, their ability to embrace change not only benefits their own career development but also drives
+          organizational success in an ever-evolving landscape.
+        </p>
+        <a href="https://your.yale.edu/learn-and-grow-what-adaptability-workplace">
+          <button id="learn-more-button">Learn More</button>
+        </a>
+      </div>
+    </section>
+
+
+    <script src="https://wizard-orpheus.hackclub.dev/wizard_orpheus.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
