@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Our Platform</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+  <style>
+
+      h2 {
+          text-align: center;
+          margin-bottom: 20px;
+      }
+
+      #myBtnContainer {
+          text-align: center;
+          margin-bottom: 20px;
+      }
+
+      .btn {
+          padding: 10px 15px;
+          margin: 0 5px;
+          cursor: pointer;
+          border: none;
+          background-color: #007BFF;
+          color: white;
+          border-radius: 5px;
+          transition: background-color 0.3s;
+      }
+
+      .btn.active {
+          background-color: #0056b3;
+      }
+
+      .btn:hover {
+          background-color: #0056b3;
+      }
+
+      .container {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 20px;
+      }
+
+      .card {
+          width: 200px;
+          height: 150px;
+          border: 1px solid #ccc;
+          border-radius: 8px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          padding: 10px;
+          box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+          background-color: white;
+          transition: transform 0.2s;
+          color: black;
+      }
+
+      .card:hover {
+          transform: scale(1.05);
+      }
+
+      .filterDiv {
+          display: none; 
+      }
+
+      .show {
+          display: flex;
+      }
+
+      .enroll-button {
+          margin-top: 10px;
+          padding: 8px 12px;
+          background-color: #28a745;
+          color: white;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          transition: background-color 0.3s;
+      }
+
+      .enroll-button:hover {
+          background-color: #218838;
+      }
+  </style>
+
+  
+<script>
+  window.onscroll = function () {myFunction()};
+
+  var navbar = document.getElementById("navbar");
+  var sticky = navbar.offsetTop;
+
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+</script>
+
+<body>
+
+  <div id="navbar">
+    <a class="active" href="javascript:void(0)">Home</a>
+    <a href="bot.html">AI Chatbot</a>
+    <a href="library.html">Library</a>
+
+  </div>
+  <header>
+    <img src="bg.png" alt="Header Image" width="50%">
+    <div class="header-text">
+      <h1>JobBridge</h1>
+      <p>Connecting Talents, Embracing Diversity</p>
+    </div>
+  </header>
+
+
+  <section id="home">
+    <div class="text-container">
+      <h2>Welcome</h2>
+      <p>Welcome to our platform, <b>JobBridge</b>. The goal of JobBridge is to create an inclusive
+        platform that connects individuals with disabilities to job opportunities while addressing their specific needs
+        and challenges.
+
+        Despite making 20% of the workforce, disable individuals hold only  <b>4%</b> if leadership positions, dindicating a significant gap in carreer advancement opporutnites. Therefore, it's vital to empower disabled people to find a work environment and community where they can thrive and grow without any barriers, bringing equality and justice to all.</p>
+    </div>
+    <img class="image" alt="PageDart.com" src="https://media.istockphoto.com/id/1425293645/photo/disability-diversity-and-business-meeting-with-staff-people-or-team-communication-planning-on.jpg?s=612x612&w=0&k=20&c=uuJ48i5A4AlZfIMrWpdXYdpDw6HrTi2XNnLFt-mPm-w=">
+  </section>
+
+
+  <section id="home">
+    <div class="text-container">
+      <h2>How does JobBridge help?</h2>
+      <p>JobBridge fufills it's goal of creating an inclusive platform that connects individuals with disabilities to
+        job opportunities through it's 3 main features:
+      <ul><br></br>
+        <li><b>Job Search</b>: A tool that allows users to efficiently search for jobs based on their skills and preferences using a feasible filtering system. </li> <br></br>
+        <li><b>AI Chatbot</b>: An multilingual AI Assistant that offers personalized advice and support. It also
+          provides
+          guidance for finding job opportunities and navigating the job market. </li> <br></br>
+        <li><b>Library</b>: A comprehensive resource hub offering a curated collection of websites, tutorials, and
+          development tools needed for obtaining the skills needed for your dream job. </li><br></br>
+      </ul>
+      </p>
+    </div>
+    <img class="image" alt="PageDart.com" src="logo.png">
+  </section>
+
+    
+  <section id="home">
+    <div class="text-container">
+      <h2>Vision for the future</h2>
+      <p>JobBridge envisions a future where the job market is fully <b>inclusive and accessible</b>, empowering
+        individuals with disabilities to thrive in their careers. We aim to create a dynamic platform that not only
+        connects job seekers with opportunities but also fosters a <b>culture of understanding and support among
+          employers</b>. By leveraging innovative technology and community engagement, JobBridge aspires to <b>break
+          down barriers to employment</b>, ensuring that every individual, regardless of their abilities, has equal
+        access to meaningful work.
+        <br></br>Our vision includes a robust network of employers committed to diversity and inclusion, comprehensive
+        resources for skill development, and a vibrant community where experiences and insights are shared. Ultimately,
+        JobBridge seeks to redefine the employment landscape, making it a place where <b>everyone</b> can contribute
+        their unique talents and perspectives.
+      </p>
+    </div>
+    <img class="image" alt="PageDart.com" src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i_G3YfZZBaVo/v0/-1x-1.jpg">
+  </section>
+
+  <section id="home">
+    <div class="text-container">
+      <h2>Job Search</h2>
+      <p>Explore our easy-to-use filtering system, crafted to help you find the perfect job that aligns with your skills and interests! If you ever feel like you need a little extra help or have questions along the way, our friendly AI Chatbot is here for you—just reach out, and we’ll be happy to assist you.</p>
+    </div>
+</section>
+  <div id="myBtnContainer">
+    <button class="btn active" onclick="filterSelection('all')"> Show All</button>
+    <button class="btn" onclick="filterSelection('wheelchair')"> Wheelchair Services</button>
+    <button class="btn" onclick="filterSelection('remote')"> Remote Work </button>
+    <button class="btn" onclick="filterSelection('flexible')"> Flexible Work Timings </button>
+    <button class="btn" onclick="filterSelection('other')"> Other </button>
+  </div>
+
+  
+  <div class="container">
+    <div class="filterDiv wheelchair card">
+        <div class="card">
+            <div>SWE Role @ Amazon</div>
+          <button id="learn-more-button">Learn More</button>
+        </div>
+    </div>
+    <div class="filterDiv remote wheelchair card">
+        <div class="card">
+            <div>UX Designer @ Google</div>
+          <button id="learn-more-button">Learn More</button>
+        </div>
+    </div>
+    <div class="filterDiv flexible card">
+        <div class="card">
+            <div>Content Intern @ Meta</div>
+          <button id="learn-more-button">Learn More</button>
+        </div>
+    </div>
+    <div class="filterDiv other card">
+        <div class="card">
+            <div> Developer @ Microsoft</div>
+          <button id="learn-more-button">Learn More</button>
+        </div>
+    </div>
+    <div class="filterDiv remote wheelchair card">
+        <div class="card">
+            <div> Designer at Adobe</div>
+          <button id="learn-more-button">Learn More</button>
+        </div>
+    </div>
+    <div class="filterDiv flexible card">
+        <div class="card">
+            <div>SWE Intern @ Twitter</div>
+          <button id="learn-more-button">Learn More</button>
+        </div>
+    </div>
+  </div>
+
+
+  <script>
+    filterSelection("all"); 
+
+    function filterSelection(c) {
+        var x, i;
+        x = document.getElementsByClassName("filterDiv");
+        if (c == "all") c = "";
+        for (i = 0; i < x.length; i++) {
+            x[i].classList.remove("show");
+            if (x[i].className.indexOf(c) > -1) x[i].classList.add("show");
+        }
+    }
+
+    var btnContainer = document.getElementById("myBtnContainer");
+    var btns = btnContainer.getElementsByClassName("btn");
+    for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function() {
+            var current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace(" active", "");
+            this.className += " active";
+        });
+    }
+  </script>
+
+  
+  <hr>
+  </hr>
+  </div>
+  <script src="https://wizard-orpheus.hackclub.dev/wizard_orpheus.js"></script>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
